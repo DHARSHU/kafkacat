@@ -18,7 +18,7 @@ public class Imp_Jsch {
        jsch_lib.channel_sftp("C:\\Users\\kon8040\\Desktop\\","/home/speldply/payload/","heartbeat.json");
        jsch_lib.build_Kafkacat_Url(hm,"localhost:9092","recipe-ingredient","heartbeat.json");
       // jsch_lib.Channel_Execute();
-       session.dicsconnect();
+       session.disconnect();
 
     } }
 
